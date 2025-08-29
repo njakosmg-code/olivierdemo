@@ -34,10 +34,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/on-blip/DEMO-PLAYWRIGHT.git"
+    "url": "git+https://github.com/njakosmg-code/olivierdemo.git"
   },
   "bugs": {
-    "url": "https://github.com/on-blip/DEMO-PLAYWRIGHT/issues"
+    "url": "https://github.com/njakosmg-code/olivierdemo/issues"
   },
-  "homepage": "https://github.com/on-blip/DEMO-PLAYWRIGHT#readme"
+  "homepage": "https://github.com/njakosmg-code/olivierdemo#readme"
 }

@@ -3,18 +3,41 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {"test": "npx playwright test",
-  "test:report": "npx playwright show-report",
-  "allure:generate": "allure generate allure-results --clean -o allure-report",
-  "allure:open": "allure open allure-report"},
+  "scripts": {
+    "test": "npx playwright test",
+    "test:report": "npx playwright show-report",
+    "allure:generate": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "@playwright/test": "^1.53.2",
+    "@playwright/test": "^1.55.0",
     "@types/node": "^24.0.10",
     "allure-commandline": "^2.34.1",
-    "allure-playwright": "^3.3.3"
-  }
+    "allure-playwright": "^3.3.3",
+    "playwright": "^1.55.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "allure-js-commons": "^3.3.3",
+    "charenc": "^0.0.2",
+    "crypt": "^0.0.2",
+    "is-buffer": "^1.1.6",
+    "md5": "^2.3.0",
+    "playwright-core": "^1.53.2",
+    "undici-types": "^7.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/on-blip/DEMO-PLAYWRIGHT.git"
+  },
+  "bugs": {
+    "url": "https://github.com/on-blip/DEMO-PLAYWRIGHT/issues"
+  },
+  "homepage": "https://github.com/on-blip/DEMO-PLAYWRIGHT#readme"
 }
